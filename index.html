@@ -1,0 +1,68 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Магазин солодощів</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Магазин солодощів</h1>
+		<button id="cart-btn" onclick="toggleCart()">Кошик (<span id="cart-count">0</span>)</button>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Головна</a></li>
+			<li><a href="#">Продукти</a></li>
+			<li><a href="#">Контакти</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section>
+			<h2>Найбільш популярні солодощі</h2>
+			<ul>
+				<li>
+					<img src="3252234_1.jpeg">
+					<h3>Шоколадні цукерки</h3>
+					<p>Ціна: $10 за 100 грам</p>
+					<button class="add-to-cart" data-name="Шоколадні цукерки" data-price="10">Додати до кошика</button>
+				</li>
+				<li>
+					<img src="240867029.jpg">
+					<h3>Фруктові желейки</h3>
+					<p>Ціна: $5 за 100 грам</p>
+					<button class="add-to-cart" data-name="Фруктові желейки" data-price="5">Додати до кошика</button>
+				</li>
+				<li>
+					<img src="1_7.jpg">
+					<h3>Мармелад</h3>
+					<p>Ціна: $8 за 100 грам</p>
+					<button class="add-to-cart" data-name="Мармелад" data-price="8">Додати до кошика</button>
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Магазин солодощів. Усі права захищені.</p>
+	</footer>
+
+	<div id="cart">
+		<h2>Кошик</h2>
+		<table id="cart-items">
+			<tr>
+				<th>Назва</th>
+				<th>Ціна</th>
+				<th>Кількість</th>
+				<th>Всього</th>
+			</tr>
+		</table>
+		<p id="cart-total">Всього: $0</p>
+		<button id="checkout-btn">Оформити замовлення</button>
+	</div>
+
+</body>
+</html>

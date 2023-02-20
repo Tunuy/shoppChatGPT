@@ -1,0 +1,73 @@
+/* Стилі для заголовку */
+header {
+	background-color: #f2b1c1;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Стилі для меню */
+nav {
+	background-color: #e6d4b6;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li a {
+	display: block;
+	padding: 5px;
+	color: #333;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #f2b1c1;
+	color: #fff;
+}
+
+/* Стилі для найбільш популярних солодощів */
+section {
+	margin: 20px;
+}
+
+section h2 {
+	text-align: center;
+}
+
+section ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+section li {
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+
+section li img {
+	width: 200px;
+	height: 200px;
+}
+
+section li h3 {
+	margin-top: 10px;
+}
+
+/* Стилі для підвалу */
+footer {
+	background-color: #f2b1c1;
+	padding: 20px;
+	text-align: center;
+}
